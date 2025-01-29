@@ -1,0 +1,12 @@
+[project]
+authors = ["Reio Piller <reio@heathmont.net>"]
+channels = ["conda-forge", "https://conda.modular.com/max-nightly", "https://repo.prefix.dev/modular-community"]
+description = "Add a short description here"
+name = "virtual-cpu"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+max = ">=25.1.0.dev2025012705,<26"
